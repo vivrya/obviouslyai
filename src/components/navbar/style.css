@@ -21,10 +21,11 @@
 }
 
 .top-bar-button {
+  margin-right: 50px;
   background-color: transparent;
   color: black;
   font-family: sans-serif;
-  padding: 10px 20px;
+  padding: 10px;
   border: none;
   cursor: pointer;
   font-size: 1em;
