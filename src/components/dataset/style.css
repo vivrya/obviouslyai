@@ -1,0 +1,159 @@
+/* styles.css */
+
+@font-face {
+  font-family: "HammersmithOne";
+  src: url("../../assets//fonts/HammersmithOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  font-size: 1rem;
+  color: #333;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.dataset-title {
+  color: #333;
+  font-size: 2rem;
+  font-family: "HammersmithOne", sans-serif;
+}
+
+.dataset-title strong {
+  font-weight: 700;
+  font-family: "HammersmithOne", sans-serif;
+}
+
+.dataset-subtitle {
+  color: #666;
+  font-size: 1rem;
+  width: 60%;
+  font-size: small;
+}
+.dataset-upload-button-test {
+  background-color: #4a90e2;
+  color: white;
+  width: 20%;
+  padding: 15px 30px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.dataset-upload-button-test:hover {
+  background-color: #357ab7;
+}
+
+.or-separator {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.or-separator::before,
+.or-separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+}
+
+.or-separator::before {
+  margin-right: 10px;
+}
+
+.or-separator::after {
+  margin-left: 10px;
+}
+
+.database-section h3 {
+  font-size: 1rem;
+  color: #333;
+}
+
+.database-section p {
+  font-size: 0.8rem;
+  color: #666;
+  font-style: italic;
+}
+
+.ip-address {
+  color: #34a853;
+  font-weight: bold;
+}
+
+.database-options {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.database-options div {
+  display: flex;
+  padding: 20px;
+  height: 80px;
+  width: 80px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.database-options div:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.database-options div img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.database-options div span {
+  font-size: 1rem;
+  color: #333;
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.image-wrapper img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 300px;
+  height: auto;
+}
+
+.styled-image {
+  position: relative;
+  align-self: flex-end;
+  width: 50%;
+  max-width: 300px;
+}

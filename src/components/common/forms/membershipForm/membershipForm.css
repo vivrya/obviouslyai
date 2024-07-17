@@ -1,0 +1,69 @@
+/* MembershipForm.css */
+
+.membership-form {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+}
+
+.membership-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.membership-subtitle {
+  font-size: 16px;
+  color: #666;
+  margin: 10px 0 20px 0;
+}
+
+.other-plans {
+  margin-bottom: 20px;
+}
+
+.plan-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 10px;
+}
+
+.plan-details h4 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.plan-details p {
+  margin: 5px 0 0 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.plan-price p {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.cancel-membership {
+  font-size: 14px;
+  color: #666;
+}
+
+.cancel-membership a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.cancel-membership a:hover {
+  text-decoration: underline;
+}

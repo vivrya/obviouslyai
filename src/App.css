@@ -1,5 +1,7 @@
-.App {
-  text-align: center;
+.app {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
 }
 
 .App-logo {
@@ -35,4 +37,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.main-content {
+  margin-top: 60px; /* Adjust based on the height of the top bar */
+  margin-left: 19%;
+  padding: 20px;
+  width: 81%;
+  height: calc(100vh - 60px); /* Adjust based on the height of the top bar */
+  overflow-y: auto;
+}
+.svg-logo {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  width: 50vw; /* Adjust the size as needed */
+  height: auto;
+  overflow: hidden;
 }

@@ -1,0 +1,36 @@
+/* src/components/UserCard.css */
+
+/* src/components/InputCard.css */
+.input-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  height: 46px;
+}
+.input-card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-label {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.input-field {
+  font-size: 1em;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+.input-field:focus {
+  border-color: #4285f4;
+  outline: none;
+}
